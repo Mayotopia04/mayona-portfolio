@@ -31,7 +31,7 @@ export const ContactForm = () => {
               className={css.formInput}
               type="text"
               name="name"
-              placeholder="John Doe"
+              placeholder="Jane Doe"
               required
             />
             <span className={css.formLabel}>Name *</span>
@@ -42,7 +42,7 @@ export const ContactForm = () => {
               className={css.formInput}
               type="email"
               name="email"
-              placeholder="john_doe@email.com"
+              placeholder="jane_doe@email.com"
               required
             />
             <span className={css.formLabel}>Email *</span>
@@ -54,7 +54,7 @@ export const ContactForm = () => {
             className={css.formTextArea}
             name="message"
             rows="8"
-            placeholder="What's on your thoughts?"
+            placeholder="What's on your mind?"
           ></textarea>
           <span className={css.formLabel}>Message</span>
         </label>
