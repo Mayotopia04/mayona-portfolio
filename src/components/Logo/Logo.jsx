@@ -8,8 +8,8 @@ export const Logo = () => {
         to="/"
         end
         className={({ isActive }) => (isActive ? css.linkActive : css.link)}
-      >
-        MB
+      >MB: 🤓wn IT
+        
       </NavLink>
     </div>
   );
