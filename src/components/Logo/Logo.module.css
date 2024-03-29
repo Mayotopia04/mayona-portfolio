@@ -17,3 +17,9 @@
   color: var(--PRIMARY);
   font-weight: 700;
 }
+
+.logoSpan {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
