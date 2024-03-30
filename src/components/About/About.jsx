@@ -17,6 +17,7 @@ export const About = () => {
           alt="Mayona Buck"
           width="300"
           height="400"
+          id="profile"
         />
 
         {/* About thumb details*/}
